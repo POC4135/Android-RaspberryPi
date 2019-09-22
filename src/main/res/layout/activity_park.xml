@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="104dp"
+        android:layout_height="wrap_content"
+        android:layout_x="170dp"
+        android:layout_y="20dp"
+        android:text="Info"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="26dp"
+        android:layout_y="176dp"
+        android:text="Enter Name:"
+        android:textSize="20sp" />
+
+
+    <EditText
+        android:id="@+id/Name"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_x="173dp"
+        android:layout_y="167dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="26dp"
+        android:layout_y="117dp"
+        android:text="Enter ProfileID:"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/ProfileID"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_x="203dp"
+        android:layout_y="103dp"
+        android:inputType="number"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="29dp"
+        android:layout_y="238dp"
+        android:text="Enter Details:"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/Details"
+        android:layout_width="206dp"
+        android:layout_height="wrap_content"
+        android:layout_x="176dp"
+        android:layout_y="230dp"
+        android:textSize="20sp" />
+
+
+    <Button
+        android:id="@+id/addd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="112dp"
+        android:layout_y="10dp"
+        android:text="Add Money"
+        android:textSize="30dp" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="24dp"
+        android:layout_y="299dp"
+        android:id="@+id/BalText"
+        android:text="Wallet Balance:"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/slotText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="28dp"
+        android:layout_y="368dp"
+        android:text="Slot Alloted :"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/Balance"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_x="177dp"
+        android:layout_y="290dp"
+        android:inputType="number"
+        android:textSize="20sp" />
+
+
+    <EditText
+        android:id="@+id/slot"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_x="177dp"
+        android:layout_y="357dp"
+        android:inputType="number"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Insert"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="28dp"
+        android:layout_y="382dp"
+        android:text="Insert"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/Delete"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="205dp"
+        android:layout_y="382dp"
+        android:text="Delete"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/Update"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="28dp"
+        android:layout_y="463dp"
+        android:text="Update"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/View"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="201dp"
+        android:layout_y="465dp"
+        android:text="View"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/ViewAll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="28dp"
+        android:layout_y="547dp"
+        android:text="Profiles"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/viewSlots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="217dp"
+        android:layout_y="549dp"
+        android:text="Slots"
+        android:textSize="30dp" />
+
+
+</AbsoluteLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/Scan"
+        android:layout_width="193dp"
+        android:layout_height="98dp"
+        android:layout_x="111dp"
+        android:layout_y="121dp"
+        android:text="Scan"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="192dp" />
+
+    <EditText
+        android:id="@+id/fff"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_x="109dp"
+        android:layout_y="245dp"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Profile"
+        android:layout_width="193dp"
+        android:layout_height="98dp"
+        android:layout_x="107dp"
+        android:layout_y="392dp"
+        android:text="Profile"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="360dp" />
+
+</AbsoluteLayout>
